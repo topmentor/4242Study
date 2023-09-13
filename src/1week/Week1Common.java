@@ -9,6 +9,7 @@ public class Week1Common {
         String inputStr = sc.next();
         String outStr = "";
 
+        // Character.isDigit()로 처리 
         for(int i=0; i<inputStr.length() ; i++){
             char tmp = inputStr.charAt(i);
 
@@ -18,5 +19,9 @@ public class Week1Common {
         }
 
         System.out.println(inputStr + " ---> " + outStr );
+
+        // 정규표현식으로 처리
+        String outStr2 = inputStr.replaceAll("[^0-9]","");
+        System.out.println(inputStr + " ---> " + outStr2 );
     }
 }
