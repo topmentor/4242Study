@@ -9,7 +9,7 @@
 ## 멤버 링크
 1. [김희연](https://github.com/hinnnnnnnn/4242study) <br>
 2. [설윤아](https://github.com/foryoonas/yoonaass) <br>
-3. [장유진](https://github.com/your555/youjin) <br>
+3. [장유진](https://github.com/your555/your4242) <br>
 4. [최보윤](https://github.com/wkcpgbrkd) <br>
 
 <br><br>
