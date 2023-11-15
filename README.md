@@ -31,5 +31,6 @@
 -----------------------------------
 
 ## 주요 링크
-1. [IntelliJ 설치방법](https://codeenator.com/codeenator/album/view/Mqix6k) <br>
+1. [DB Browser for SQLite 다운로드](https://sqlitebrowser.org/dl/) <br>
+2. [IntelliJ 설치방법](https://codeenator.com/codeenator/album/view/Mqix6k) <br>
 <br><br>
