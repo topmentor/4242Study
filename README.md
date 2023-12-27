@@ -7,10 +7,6 @@
 -----------------------------------
 
 ## 멤버 링크
-1. [김희연](https://github.com/hinnnnnnnn/4242study) <br>
-2. [설윤아](https://github.com/foryoonas/yoonaass) <br>
-3. [장유진](https://github.com/your555/your4242) <br>
-4. [최보윤](https://github.com/wkcpgbrkd) <br>
 
 <br><br>
 
@@ -31,6 +27,4 @@
 -----------------------------------
 
 ## 주요 링크
-1. [DB Browser for SQLite 다운로드](https://sqlitebrowser.org/dl/) <br>
-2. [IntelliJ 설치방법](https://codeenator.com/codeenator/album/view/Mqix6k) <br>
 <br><br>
