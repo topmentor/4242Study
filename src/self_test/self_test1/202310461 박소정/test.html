@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<head>
+    <title>test</title>
+    <style>
+        .main {
+            width: 400px; height: 500px;
+            border: 1.5px solid black; 
+            background-color: white;
+            position: relative;
+        }
+
+        .juice {
+            width: 370px; height: 170px;
+            border: 1.5px solid rgb(173, 173, 173);
+            background-color: white;
+            position: absolute;
+            left: 15px; top: 15px;
+        }
+
+        .ju_1{
+            width: 100px; height: 140px;
+            border: 1.5px solid rgb(173, 173, 173);
+            background-color: white;
+            position: absolute;
+            left: 15px; top: 15px;
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .ju_1 img {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .ju_1 h2, .ju_1 p {
+            margin: 0;
+        }
+
+        .ju_2{
+            width: 100px; height: 140px;
+            border: 1.5px solid rgb(173, 173, 173);
+            background-color: white;
+            position: absolute;
+            left: 135px; top: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .ju_2 img {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .ju_2 h2, .ju_2 p {
+            margin: 0;
+        }
+
+        .ju_3{
+            width: 100px; height: 140px;
+            border: 1.5px solid rgb(173, 173, 173);
+            background-color: white;
+            position: absolute;
+            left: 255px; top: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .ju_3 img {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .ju_3 h2, .ju_3 p {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        img {
+            border: 1.5px solid rgb(173, 173, 173);
+            margin-top: 3px;
+        }
+
+        .money {
+            width: 370px; height: 70px;
+            border: 1.5px solid rgb(173, 173, 173);
+            background-color: white;
+            position: absolute;
+            left: 15px; top: 205px;
+            position: relative;
+
+        }
+        .money input[type="text"] {
+            width: 250px; height: 25px;
+            padding: 5px;
+            margin-right: 8px;
+            position: absolute;
+            top: 15px; left: 22px;
+            text-align: right;
+            font-size: 25px;
+            font-weight: 550;
+            color: brown;
+        }
+        .money input[type="button"] {
+            width: 50px; height: 39px;
+            padding: 5px;
+            position: absolute;
+            top: 15px; right: 22px;
+            font-size: 20px;
+        }
+        .exit {
+            width: 370px; height: 100px;
+            border: 1.5px solid rgb(173, 173, 173);
+            background-color: white;
+            position: absolute;
+            left: 15px; top: 295px;
+            text-align: center;
+            line-height: 60px;
+        }
+        .remain {
+            width: 370px; height: 70px;
+            border: 1.5px solid rgb(173, 173, 173);
+            background-color: white;
+            position: absolute;
+            left: 15px; top: 410px;
+            text-align: left;
+            
+        }
+        .re_text {
+            font-size: 18px;
+            padding-top: 25px;
+            padding-left: 30px;
+            float: left;
+        }
+        .circle {
+            width: 50px; height: 50px;
+            font-size: 20px;
+            background-color: rgb(239, 239, 239);
+            border: 1.5px solid rgb(173, 173, 173);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+            margin-top: 8px;
+            margin-left: 105px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="juice">
+            <div class="ju_1" onclick="displayProduct('콜라');">
+                <img src="/콜라.jpeg" width="80px" height="80px">
+                <h2>콜라</h2>
+                <p>1,000원</p>
+            </div>
+            <div class="ju_2" onclick="displayProduct('사이다');">
+                <img src="/사이다.jpeg" width="80px" height="80px">
+                <h2>사이다</h2>
+                <p>500원</p>
+            </div>
+            <div class="ju_3" onclick="displayProduct('환타');">
+                <img src="/환타.jpeg" width="80px" height="80px">
+                <h2>환타</h2>
+                <p>700원</p>
+            </div>
+        </div>
+        <div class="money">
+            <input type="text" id="money" value="0" name="money" readonly>
+            <input type="button" id="xndlq" value="투입" name="xndlq" onclick="plus();">
+        </div>
+        <script>
+            function plus() {
+                var moneyInput = document.getElementById('money');
+                var currentMoney = parseInt(moneyInput.value, 10); //충돌을 없애줌,, 문자를 정수로 변환. 10은 10진수라는 의미
+                var newMoney = currentMoney + 100;
+                moneyInput.value = newMoney;
+                }
+
+        </script>
+        <div class="exit" id="productDisplay">
+            <h2>상품나오는 곳</h2>
+        </div>
+        <div class="remain">
+            <div class="re_text">거스름돈 나오는 곳</div>
+            <div class="circle">0</div>
+        </div>
+        <script>
+            function displayProduct(col) {
+                var moneyInput = document.getElementById('money');
+                var currentMoney = parseInt(moneyInput.value, 10);
+
+                if (currentMoney >= 1000) {
+                    var remainingMoney = currentMoney - 1000;
+                    moneyInput.value = remainingMoney;
+
+                    var productDisplay = document.getElementById('productDisplay');
+                    productDisplay.innerHTML = '<img src="/' + col + '.jpeg" width="80px" height="80px">';
+                } else {
+                    alert('돈이 부족합니다.');
+                }
+            }
+
+            function displayProduct(sa) {
+                var moneyInput = document.getElementById('money');
+                var currentMoney = parseInt(moneyInput.value, 10);
+
+                if (currentMoney >= 500) {
+                    var remainingMoney = currentMoney - 500;
+                    moneyInput.value = remainingMoney;
+
+                    var productDisplay = document.getElementById('productDisplay');
+                    productDisplay.innerHTML = '<img src="/' + sa + '.jpeg" width="80px" height="80px">';
+                } else {
+                    alert('돈이 부족합니다.');
+                }
+            }
+
+            function displayProduct(ta) {
+                var moneyInput = document.getElementById('money');
+                var currentMoney = parseInt(moneyInput.value, 10);
+
+                if (currentMoney >= 700) {
+                    var remainingMoney = currentMoney - 700;
+                    moneyInput.value = remainingMoney;
+
+                    var productDisplay = document.getElementById('productDisplay');
+                    productDisplay.innerHTML = '<img src="/' + ta + '.jpeg" width="80px" height="80px">';
+                } else {
+                    alert('돈이 부족합니다.');
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>
