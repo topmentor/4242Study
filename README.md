@@ -1,40 +1,42 @@
-# 4242 ½ºÅÍµğ ÆäÀÌÁö
-4242 2±â ½ºÅÍµğ ÆäÀÌÁö ÀÔ´Ï´Ù.
+# 4242 ìŠ¤í„°ë”” í˜ì´ì§€
+4242 2ê¸° ìŠ¤í„°ë”” í˜ì´ì§€ ì…ë‹ˆë‹¤.
 <br>
 
-## ¾È³»
-1. º¸°­ÀÚ·á 1ÁÖÂ÷ ¾÷·Îµå 
+## ì•ˆë‚´
+1. ë³´ê°•ìë£Œ 1ì£¼ì°¨ ì—…ë¡œë“œ 
 <br><br>
 
 -----------------------------------
 
-## ¸â¹ö ¸µÅ©
-. ¹Ú¼ÒÁ¤ (https://github.com/parkbak/4242-repo) <br>
-. ¼³À±¾Æ (https://github.com/foryoonas/study-4242) <br>
-. ¼Õ·û   (https://github.com/sonryun/4242-study)<br>
-. Àü¿¹Áö (https://github.com/glaemfa?tab=repositories) <br>
-. ÃÖº¸À± (https://github.com/Y0-0N63/STUDY-4242-Ver.2) <br>
-. ÇÑÁØÀÌ (https://github.com/jayeee2/Study-4242) <br>
+## ë©¤ë²„ ë§í¬
+. ê¹€ìˆ˜ì—° (https://github.com/tndusdl/study-4242)<br>
+. ë°•ì†Œì • (https://github.com/parkbak/4242study) <br>
+. ì„¤ìœ¤ì•„ (https://github.com/foryoonas/study-4242) <br>
+. ì†ë¥œ   (https://github.com/sonryun/4242-study)<br>
+. ì‹ ì€ì„œ (https://github.com/eunseouo/4242-STUDY) <br>
+. ì „ì˜ˆì§€ (https://github.com/glaemfa?tab=repositories) <br>
+. ìµœë³´ìœ¤ (https://github.com/Y0-0N63/STUDY-4242-Ver.2) <br>
+. í•œì¤€ì´ (https://github.com/jayeee2/Study-4242) <br>
 <br><br>
 
 
 -----------------------------------
-# °øÀ¯ ÀÚ·á
+# ê³µìœ  ìë£Œ
 
-1. ½ºÅÍµğ³ëÆ® : note 
-2. ½Ç½À¿ë ÆÄÀÏ ¹× ¼Ò½º : src
-3. Âü°íÀÚ·á : others
+1. ìŠ¤í„°ë””ë…¸íŠ¸ : note 
+2. ì‹¤ìŠµìš© íŒŒì¼ ë° ì†ŒìŠ¤ : src
+3. ì°¸ê³ ìë£Œ : others
 <br><br>
 
 -----------------------------------
-## ÁÖÀÇ »çÇ×
-* º» repo´Â '»çÀÌ»çÀÌ' ½ºÅÍµğ ±×·ìÀ» À§ÇÑ ÀÚ·á¸¦ °øÀ¯ÇÏ´Â ÀúÀå¼Ò ÀÔ´Ï´Ù. 
-* º» repo ÀÚ·á´Â ¹«´Ü ¹èÆ÷¸¦ ±İÇÕ´Ï´Ù.
+## ì£¼ì˜ ì‚¬í•­
+* ë³¸ repoëŠ” 'ì‚¬ì´ì‚¬ì´' ìŠ¤í„°ë”” ê·¸ë£¹ì„ ìœ„í•œ ìë£Œë¥¼ ê³µìœ í•˜ëŠ” ì €ì¥ì†Œ ì…ë‹ˆë‹¤. 
+* ë³¸ repo ìë£ŒëŠ” ë¬´ë‹¨ ë°°í¬ë¥¼ ê¸ˆí•©ë‹ˆë‹¤.
 <br><br>
 
 -----------------------------------
 
-## ÁÖ¿ä ¸µÅ©
+## ì£¼ìš” ë§í¬
 1. [VSCode download](https://code.visualstudio.com) <br>
 2. [DB Browser for SQLite download](https://sqlitebrowser.org/dl/) <br>
 <br><br>
