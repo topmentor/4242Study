@@ -3,7 +3,6 @@
 <br>
 
 ## 안내
-1. 보강자료 1주차 업로드 
 <br><br>
 
 -----------------------------------
@@ -14,7 +13,6 @@
 . 설윤아 (https://github.com/foryoonas/study-4242) <br>
 . 손륜   (https://github.com/sonryun/4242-study)<br>
 . 신은서 (https://github.com/eunseouo/4242-STUDY) <br>
-. 전예지 (https://github.com/glaemfa?tab=repositories) <br>
 . 최보윤 (https://github.com/Y0-0N63/STUDY-4242-Ver.2) <br>
 . 한준이 (https://github.com/jayeee2/Study-4242) <br>
 <br><br>
