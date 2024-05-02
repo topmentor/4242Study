@@ -15,6 +15,7 @@
 . 신은서 (https://github.com/eunseouo/4242-STUDY) <br>
 . 최보윤 (https://github.com/Y0-0N63/STUDY-4242-Ver.2) <br>
 . 한준이 (https://github.com/jayeee2/Study-4242) <br>
+. 정요셉 (https://github.com/yoseph124) <br>
 <br><br>
 
 
