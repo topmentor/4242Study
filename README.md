@@ -10,13 +10,10 @@
 
 ## 멤버 링크
 . 김수연 (https://github.com/tndusdl/study-4242)<br>
-. 박소정 (https://github.com/parkbak/4242study) <br>
-. 설윤아 (https://github.com/foryoonas/study-4242) <br>
-. 손륜   (https://github.com/sonryun/4242-study)<br>
 . 신은서 (https://github.com/eunseouo/4242-STUDY) <br>
 . 최보윤 (https://github.com/Y0-0N63/STUDY-4242-Ver.2) <br>
+. 설윤아 (https://github.com/foryoonas/study-4242) <br>
 . 한준이 (https://github.com/jayeee2/Study-4242) <br>
-. 정요셉 (https://github.com/yoseph124/424242) <br>
 <br><br>
 
 
